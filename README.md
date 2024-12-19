@@ -1,5 +1,6 @@
 
 # API Development with Fastify, TypeScript, and Swagger
+![image](https://github.com/user-attachments/assets/e95fda63-4071-49b4-89d1-3d6e893d52df)
 
 This project demonstrates the implementation of a **self-documenting API** using modern backend technologies. It leverages **Fastify**, a high-performance Node.js framework, combined with **TypeScript** for type safety, **Zod** for data validation and serialization, and **Swagger** for comprehensive API documentation. The project also includes **CORS** configuration to handle secure cross-origin requests.
 
