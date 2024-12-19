@@ -13,7 +13,7 @@ const users: User[] = []
 export async function routes(app: FastifyTypedInstance) {
   app.get('/users', {
     schema: {
-      tag: ['users'],
+      tags: ['users'],
       description: 'List users',
       response: {
         200: z.array(z.object({
@@ -29,6 +29,7 @@ export async function routes(app: FastifyTypedInstance) {
 
   app.post('/users', {
     schema: {
+      tags: ['users'],
       description: 'Create a new user',
       body: z.object({
         name: z.string(),
